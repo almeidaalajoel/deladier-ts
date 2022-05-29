@@ -1,0 +1,8 @@
+.header {
+  margin-top: var(--m-h-padding);
+  text-align: center;
+  align-self: center;
+  color: black;
+  font-size: 28px;
+  font-family: "ProximaNova";
+}

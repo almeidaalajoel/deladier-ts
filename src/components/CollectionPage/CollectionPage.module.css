@@ -1,0 +1,16 @@
+.button {
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: darkgray;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

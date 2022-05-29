@@ -1,0 +1,14 @@
+.centered {
+  display: flex;
+  flex: 1;
+  padding-left: var(--s-w-padding);
+  padding-right: var(--s-w-padding);
+}
+
+.column {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 2px;
+  margin-right: 2px;
+}

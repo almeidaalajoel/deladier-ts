@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "ProximaNova";
+  src: url("../../assets/ProximaNova/ProximaNovaRegular.otf");
+}
+
+.column {
+  /* border: 1px solid black; */
+  line-height: 2;
+  font-family: "ProximaNova";
+  color: #919191;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.del {
+  margin-top: var(--m-h-padding);
+  text-align: center;
+  align-self: center;
+  color: black;
+  font-size: 28px;
+  font-family: "ProximaNova";
+}
+
+/* .image {
+  min-width: 400px;
+  min-height: 700px;
+  max-width: 800px;
+  max-height: 1400px;
+  display: inline-block;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+
+.image {
+  max-width: 100%;
+  height: auto;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
